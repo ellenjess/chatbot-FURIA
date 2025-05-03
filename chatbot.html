@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot da FURIA - Esports</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="chat-wrapper">
+    <button onclick="openChat()" class="chat-button">
+      <img src="furiagg_logo.png" alt="Logo">
+    </button>
+
+    <div class="chat-container" id="chat" style="display: none;">
+        <div class="chat-header">
+          Chatbot da FURIA
+          <button class="close-chat" onclick="closeChat()">×</button>
+        </div>
+        <div class="chat-body">
+          <div class="chat-content" id="chatContent">
+            <div class="bot">Olá, Furioso/a/e! O que você gostaria de saber ou fazer?</div>
+          </div>
+          <div class="chat-footer">
+            <input type="text" id="userInput" placeholder="Digite sua pergunta...">
+            <button onclick="sendMessage()">Enviar</button>
+            <button onclick="showOptions('jogos')">Próximos Jogos</button>
+            <button onclick="showOptions('stats')">Estatísticas</button>
+            <button onclick="showOptions('conteudo')">Conteúdo Redes Sociais</button>
+            <button class="full-width" onclick="showOptions('loja')">Loja Oficial</button>
+          </div>
+        </div>
+      </div>
+      
+
+  <script src="chatbot.js"></script>
+</body>
+</html>

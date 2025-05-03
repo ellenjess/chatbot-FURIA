@@ -164,7 +164,7 @@ function addToCalendar() {
 }
 
 function viewContentF() { window.open("https://www.furia.gg", "_blank"); }
-function viewContentI() { window.open("https://www.instagram.com/furia", "_blank"); }
+function viewContentI() { window.open("https://www.instagram.com/furiagg", "_blank"); }
 function viewContentX() { window.open("https://twitter.com/furia", "_blank"); }
 function viewContentD() { window.open("https://discord.gg/furia", "_blank"); }
 function viewContentY() { window.open("https://www.youtube.com/furia", "_blank"); }
